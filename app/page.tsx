@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const links = {
   spotify: "https://open.spotify.com/artist/0dFrQZdLlx53kCCQ9ITBm4",
+  ep: "https://open.spotify.com/album/4twrawLG16nxdplLiE6cBf?si=mHSlYrL1RF2ENrQSSQT8Cg",
   apple: "https://music.apple.com/us/artist/mike-mungu/1642516254",
   audiomack: "https://audiomack.com/mike-mungu",
   instagram: "https://www.instagram.com/mikemungu_/",
   x: "https://x.com/MikeMungu_",
   tiktok: "https://www.tiktok.com/@mikemungu_",
   linktree: "https://linktr.ee/mikemungu_",
-  presave: "https://palagroove.lnk.to/LIE",
 };
 
 const career = [
@@ -43,11 +43,6 @@ const career = [
     text: "Mike joined the 2025 Jameson Hangout / Bond & Connect lineup at Ndere Cultural Centre alongside artists including Kenneth Mugabi."
   },
   {
-    year: "2025",
-    title: "BLANKETS & WINE",
-    text: "A further live chapter in Mike’s performance journey: Blankets & Wine Uganda, part of the growing live-music circuit around Kampala."
-  },
-  {
     year: "2026",
     title: "AFRICA CONNECT / KENYA",
     text: "A cross-border performance chapter in Kenya at Africa Connect, extending Mike’s live presence beyond Uganda."
@@ -71,7 +66,7 @@ export default function Home() {
           <a href="#live">Live</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a className="navCta" href={links.presave} target="_blank">PRE-SAVE ↗</a>
+        <a className="navCta" href={links.ep} target="_blank">PLAY THE EP </a>
       </header>
 
       <section id="top" className="hero">
@@ -82,11 +77,11 @@ export default function Home() {
           <h1>LOVE ISN’T<br/><i>ENOUGH.</i></h1>
           <p className="heroText">Two years of writing, recording and lived experience — distilled into Mike Mungu’s most intimate chapter yet.</p>
           <div className="actions">
-            <a className="btn primary" href={links.presave} target="_blank">PRE-SAVE THE EP</a>
-            <a className="btn ghost" href="#career">DISCOVER THE JOURNEY ↓</a>
+            <a className="btn primary" href={links.ep} target="_blank">PLAY THE EP</a>
+            <a className="btn ghost" href="#career">DISCOVER THE JOURNEY </a>
           </div>
         </div>
-        <div className="heroBadge glass reveal"><span>NEW EP</span><b>02 / 10 / 26</b></div>
+        <div className="heroBadge glass reveal"><span>NEW EP OUT </span><b>02 / 10 / 26</b></div>
       </section>
 
       <section className="billboardRail">
@@ -164,10 +159,10 @@ export default function Home() {
           <p>The new EP turns two years of writing, recording and personal experience into a body of work about love, heartbreak, longing and the places where love alone cannot fix everything.</p>
         </div>
         <div className="cards">
-          <a className="musicCard glass reveal" href={links.spotify} target="_blank"><small>STREAM</small><h3>SPOTIFY</h3><p>Artist catalogue + latest releases.</p><b>OPEN ↗</b></a>
-          <a className="musicCard glass reveal" href={links.apple} target="_blank"><small>STREAM</small><h3>APPLE MUSIC</h3><p>Releases, features and artist page.</p><b>OPEN ↗</b></a>
-          <a className="musicCard glass reveal" href={links.audiomack} target="_blank"><small>STREAM</small><h3>AUDIOMACK</h3><p>Catalogue and listener community.</p><b>OPEN ↗</b></a>
-          <a className="musicCard glass orangeCard reveal" href={links.presave} target="_blank"><small>OCTOBER 2</small><h3>PRE-SAVE</h3><p>LOVE ISN’T ENOUGH — the next chapter.</p><b>SAVE ↗</b></a>
+          <a className="musicCard glass reveal" href={links.spotify} target="_blank"><small>STREAM</small><h3>SPOTIFY</h3><p>Artist catalogue + latest releases.</p><b>OPEN </b></a>
+          <a className="musicCard glass reveal" href={links.apple} target="_blank"><small>STREAM</small><h3>APPLE MUSIC</h3><p>Releases, features and artist page.</p><b>OPEN </b></a>
+          <a className="musicCard glass reveal" href={links.audiomack} target="_blank"><small>STREAM</small><h3>AUDIOMACK</h3><p>Catalogue and listener community.</p><b>OPEN </b></a>
+          <a className="musicCard glass orangeCard reveal" href={links.ep} target="_blank"><small>OCTOBER 2</small><h3>PRE-SAVE</h3><p>LOVE ISN’T ENOUGH — the next chapter.</p><b>SAVE </b></a>
         </div>
       </section>
 
@@ -210,15 +205,15 @@ export default function Home() {
         <div className="contactGrid">
           <div className="reveal"><h2>For bookings,<br/><em>let’s connect.</em></h2><p>Bookings · Live performances · Media · Interviews · Features · Collaborations</p></div>
           <div className="glass contactCard reveal">
-            <span className="bookingLabel">BOOKINGS & MANAGEMENT</span><a className="email" href="mailto:mikemungu.management@gmail.com?subject=Booking%20inquiry%20for%20Mike%20Mungu">mikemungu.management@gmail.com</a><a className="bookingButton" href="mailto:mikemungu.management@gmail.com?subject=Booking%20inquiry%20for%20Mike%20Mungu">ENQUIRE FOR BOOKINGS ↗</a>
+            <span className="bookingLabel">BOOKINGS & MANAGEMENT</span><a className="email" href="mailto:mikemungu.management@gmail.com?subject=Booking%20inquiry%20for%20Mike%20Mungu">mikemungu.management@gmail.com</a><a className="bookingButton" href="mailto:mikemungu.management@gmail.com?subject=Booking%20inquiry%20for%20Mike%20Mungu">ENQUIRE FOR BOOKINGS </a>
             <div className="socials">
-              <a href={links.instagram} target="_blank">Instagram ↗</a>
-              <a href={links.x} target="_blank">X ↗</a>
-              <a href={links.tiktok} target="_blank">TikTok ↗</a>
-              <a href={links.linktree} target="_blank">Linktree ↗</a>
-              <a href={links.spotify} target="_blank">Spotify ↗</a>
-              <a href={links.apple} target="_blank">Apple Music ↗</a>
-              <a href={links.audiomack} target="_blank">Audiomack ↗</a>
+              <a href={links.instagram} target="_blank">Instagram </a>
+              <a href={links.x} target="_blank">X </a>
+              <a href={links.tiktok} target="_blank">TikTok </a>
+              <a href={links.linktree} target="_blank">Linktree </a>
+              <a href={links.spotify} target="_blank">Spotify </a>
+              <a href={links.apple} target="_blank">Apple Music </a>
+              <a href={links.audiomack} target="_blank">Audiomack </a>
             </div>
           </div>
         </div>
